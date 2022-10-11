@@ -112,6 +112,56 @@ const menus = {
             price:'$50.00',
             type:'desserts'
         },
+        {
+            title:'Terrific Turkey Chili',
+            element:'Turkey, oregano, tomato paste, peppers',
+            price:'$50.00',
+            type:'starters'
+        },
+        {
+            title:'Terrific Turkey Chili',
+            element:'Turkey, oregano, tomato paste, peppers',
+            price:'$50.00',
+            type:'main course'
+
+        },
+        {
+            title:'Terrific Turkey Chili',
+            element:'Turkey, oregano, tomato paste, peppers',
+            price:'$50.00',
+            type:'soups'
+        },
+        {
+            title:'Terrific Turkey Chili',
+            element:'Turkey, oregano, tomato paste, peppers',
+            price:'$50.00',
+            type:'soups'
+
+        },
+        {
+            title:'Terrific Turkey Chili',
+            element:'Turkey, oregano, tomato paste, peppers',
+            price:'$50.00'
+        },
+        {
+            title:'Terrific Turkey Chili',
+            element:'Turkey, oregano, tomato paste, peppers',
+            price:'$50.00',
+            type:'soups'
+
+        },
+        {
+            title:'Terrific Turkey Chili',
+            element:'Turkey, oregano, tomato paste, peppers',
+            price:'$50.00',
+            type:'desserts'
+        },
+        {
+            title:'Terrific Turkey Chili',
+            element:'Turkey, oregano, tomato paste, peppers',
+            price:'$50.00',
+            type:'desserts'
+        },
     ]
 }
 

@@ -23,9 +23,9 @@ function MenuItems() {
     <div className="tab_btns">
       <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
         {
-          menus.type.map((item) =>
+          menus.type.map((item,index) =>
           <li className="nav-item" role="presentation">
-          <button className="nav-link " id={`pills-`} data-bs-toggle="pill" data-bs-target={`#pills-${merged(item)}`} type="button" role="tab" aria-controls={`pills-${merged(item)}`} aria-selected="true">{item}</button>
+          <button className={`nav-link ${index == 0 ? 'active':''}`} id={`pills-`} data-bs-toggle="pill" data-bs-target={`#pills-${merged(item)}`} type="button" role="tab" aria-controls={`pills-${merged(item)}`} aria-selected="true">{item}</button>
         </li>
           )
         }
@@ -38,10 +38,9 @@ function MenuItems() {
     <div className="gap"></div>
     <div className="all_items">
       <div className="tab-content" id="pills-tabContent">
-
         {
-          menus.type.map((item) =>
-          <div className="tab-pane fade show " id={`pills-${merged(item)}`} role="tabpanel" aria-labelledby={`pills-${merged(item)}-tab`}>
+          menus.type.map((item,index) =>
+          <div className={`tab-pane fade show ${index == 0 ? 'active': ''}`} id={`pills-${merged(item)}`} role="tabpanel" aria-labelledby={`pills-${merged(item)}-tab`}>
           <div className="row">
             {
               menus.menu.filter((menu) => {return menu.type === item }).map((item) =>
