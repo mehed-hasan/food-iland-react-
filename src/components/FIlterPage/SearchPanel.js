@@ -1,4 +1,3 @@
-
 import MultiRangeSlider from "../MultiRangeSlider/MultiRangeSlider";
 
 function SearchPanel() {
@@ -105,18 +104,18 @@ function SearchPanel() {
           {/* Range slider react  yyy*/}
           <div className="w-100 mx-auto position-relative">
             <MultiRangeSlider
-            min={0}
-            max={1000}
-            onChange={({ min, max }) =>
-              console.log(`min = ${min}, max = ${max}`)
-            }
-          />
+              min={0}
+              max={1000}
+              onChange={({ min, max }) =>
+                console.log(`min = ${min}, max = ${max}`)
+              }
+            />
           </div>
 
           <div className="gap_48"></div>
           <div className="categories">
             <h5>Categories</h5>
-            <div className="button_groups">
+            {/* <div className="button_groups">
               <button className="filter_btn">1 layer</button>
               <button className="filter_btn active">2 layer</button>
               <button className="filter_btn">3 layer</button>
@@ -124,8 +123,31 @@ function SearchPanel() {
               <button className="filter_btn">5 layer</button>
               <button className="filter_btn">6 layer</button>
               <button className="filter_btn">7 layer</button>
+            </div> */}
+            <div className="category">
+              <input type="radio" id="cat" name="animal" value="1-layer"/>
+              <label for="cat">1 layer</label>
+
+              <input type="radio" id="dog" name="animal" value="2-layer" />
+              <label for="dog">2 layer</label>
+
+              <input type="radio" id="pig" name="animal" value="3-layer" />
+              <label for="pig">3 layer</label>
+
+              <input type="radio" id="other" name="animal" value="4-layer" />
+              <label for="other">4 layer</label>
+
+              <input type="radio" id="hamba" name="animal" value="5-layer" />
+              <label for="hamba">5 layer</label>
+
+              <input type="radio" id="biral" name="animal" value="6-layer" />
+              <label for="biral">6 layer</label>
+
+              <input type="radio" id="sagol" name="animal" value="7-layer" />
+              <label for="sagol">7 layer</label>
             </div>
           </div>
+          <div className="gap_48"></div>
 
           {/* <div className="sub_categories">
                                 <h5>Sub Categories</h5>
