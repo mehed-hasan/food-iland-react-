@@ -2,27 +2,25 @@ import { blogs } from "../../data/blog";
 import BlogCard from "./BlogCard";
 
 function BlogArticleList() {
-    return ( 
-        <>
-        <section className="article_list" id="blog_list">
-  <div className="container">
-    <h2>Related Topic</h2>
-    <div className="gap_64"></div>
-    <div className="row">
-    {
-              blogs.slice(0,4).map((item) =>
-              <div class="col-12 col-md-6 col-lg-3">
-              <BlogCard data={item} pattern='col' />
+  return (
+    <>
+      <section className="article_list" id="blog_list">
+        <div className="container">
+          <h2>Related Topic</h2>
+          <div className="gap_64"></div>
+          <div className="row">
+            {blogs.slice(0, 4).map((item,index) => (
+              <div key={index} className="col-12 col-md-6 col-lg-3">
+                <BlogCard data={item} pattern="col" />
               </div>
-              )
-            }
-    </div>
-  </div>
-</section>
+            ))}
+          </div>
+        </div>
+      </section>
 
-<div className="gap_64"></div>
-        </>
-     );
+      <div className="gap_64"></div>
+    </>
+  );
 }
 
 export default BlogArticleList;

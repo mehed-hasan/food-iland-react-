@@ -8,21 +8,21 @@ const blogs =[
     {   id:1,
         title:'Crochet Projects For Noodle Lovers',
         details:`Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic, oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart. Drain, and cool.`,
-        post:` <div class="pessage">
-        <div class="gap_48"></div>
+        post:` <div className="pessage">
+        <div className="gap_48"></div>
 
-        <div class="pessage_heading">
+        <div className="pessage_heading">
           1. Lorem ipsum dolor sit amet
         </div>
 
-        <div class="pessage_details_wrapper">
-          <div class="pessage_details">
+        <div className="pessage_details_wrapper">
+          <div className="pessage_details">
             <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
               oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
               cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
               Drain, and cool.</p>
 
-            <div class="gap_48"></div>
+            <div className="gap_48"></div>
           </div>
 
 
@@ -32,50 +32,50 @@ const blogs =[
 
       </div>
 
-      <div class="pessage">
-          <div class="gap_32"></div>
+      <div className="pessage">
+          <div className="gap_32"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             2. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img class="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
           </div>
 
 
         </div>
 
-        <div class="bold_passage text-center">
+        <div className="bold_passage text-center">
           <p>
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Curabitur ac ultrices odio.”
           </p>
         </div>
 
-        <div class="pessage">
-          <div class="gap_48"></div>
+        <div className="pessage">
+          <div className="gap_48"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             3. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes   . Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
 
 
@@ -96,21 +96,21 @@ const blogs =[
         post:``,
         date:'12 November 2021',
         author:'Annonymus',
-        post:` <div class="pessage">
-        <div class="gap_48"></div>
+        post:` <div className="pessage">
+        <div className="gap_48"></div>
 
-        <div class="pessage_heading">
+        <div className="pessage_heading">
           1. Lorem ipsum dolor sit amet
         </div>
 
-        <div class="pessage_details_wrapper">
-          <div class="pessage_details">
+        <div className="pessage_details_wrapper">
+          <div className="pessage_details">
             <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
               oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
               cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
               Drain, and cool.</p>
 
-            <div class="gap_48"></div>
+            <div className="gap_48"></div>
           </div>
 
 
@@ -120,50 +120,50 @@ const blogs =[
 
       </div>
 
-      <div class="pessage">
-          <div class="gap_32"></div>
+      <div className="pessage">
+          <div className="gap_32"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             2. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img class="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
           </div>
 
 
         </div>
 
-        <div class="bold_passage text-center">
+        <div className="bold_passage text-center">
           <p>
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Curabitur ac ultrices odio.”
           </p>
         </div>
 
-        <div class="pessage">
-          <div class="gap_48"></div>
+        <div className="pessage">
+          <div className="gap_48"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             3. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes   . Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
 
 
@@ -183,21 +183,21 @@ const blogs =[
         post:``,
         date:'12 November 2021',
         author:'Annonymus',
-        post:` <div class="pessage">
-        <div class="gap_48"></div>
+        post:` <div className="pessage">
+        <div className="gap_48"></div>
 
-        <div class="pessage_heading">
+        <div className="pessage_heading">
           1. Lorem ipsum dolor sit amet
         </div>
 
-        <div class="pessage_details_wrapper">
-          <div class="pessage_details">
+        <div className="pessage_details_wrapper">
+          <div className="pessage_details">
             <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
               oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
               cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
               Drain, and cool.</p>
 
-            <div class="gap_48"></div>
+            <div className="gap_48"></div>
           </div>
 
 
@@ -207,50 +207,50 @@ const blogs =[
 
       </div>
 
-      <div class="pessage">
-          <div class="gap_32"></div>
+      <div className="pessage">
+          <div className="gap_32"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             2. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img class="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
           </div>
 
 
         </div>
 
-        <div class="bold_passage text-center">
+        <div className="bold_passage text-center">
           <p>
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Curabitur ac ultrices odio.”
           </p>
         </div>
 
-        <div class="pessage">
-          <div class="gap_48"></div>
+        <div className="pessage">
+          <div className="gap_48"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             3. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes   . Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
 
 
@@ -270,21 +270,21 @@ const blogs =[
         post:``,
         date:'12 November 2021',
         author:'Annonymus',
-        post:` <div class="pessage">
-        <div class="gap_48"></div>
+        post:` <div className="pessage">
+        <div className="gap_48"></div>
 
-        <div class="pessage_heading">
+        <div className="pessage_heading">
           1. Lorem ipsum dolor sit amet
         </div>
 
-        <div class="pessage_details_wrapper">
-          <div class="pessage_details">
+        <div className="pessage_details_wrapper">
+          <div className="pessage_details">
             <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
               oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
               cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
               Drain, and cool.</p>
 
-            <div class="gap_48"></div>
+            <div className="gap_48"></div>
           </div>
 
 
@@ -294,50 +294,50 @@ const blogs =[
 
       </div>
 
-      <div class="pessage">
-          <div class="gap_32"></div>
+      <div className="pessage">
+          <div className="gap_32"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             2. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img class="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
           </div>
 
 
         </div>
 
-        <div class="bold_passage text-center">
+        <div className="bold_passage text-center">
           <p>
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Curabitur ac ultrices odio.”
           </p>
         </div>
 
-        <div class="pessage">
-          <div class="gap_48"></div>
+        <div className="pessage">
+          <div className="gap_48"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             3. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes   . Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
 
 
@@ -357,21 +357,21 @@ const blogs =[
         post:``,
         date:'12 November 2021',
         author:'Annonymus',
-        post:` <div class="pessage">
-        <div class="gap_48"></div>
+        post:` <div className="pessage">
+        <div className="gap_48"></div>
 
-        <div class="pessage_heading">
+        <div className="pessage_heading">
           1. Lorem ipsum dolor sit amet
         </div>
 
-        <div class="pessage_details_wrapper">
-          <div class="pessage_details">
+        <div className="pessage_details_wrapper">
+          <div className="pessage_details">
             <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
               oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
               cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
               Drain, and cool.</p>
 
-            <div class="gap_48"></div>
+            <div className="gap_48"></div>
           </div>
 
 
@@ -381,50 +381,50 @@ const blogs =[
 
       </div>
 
-      <div class="pessage">
-          <div class="gap_32"></div>
+      <div className="pessage">
+          <div className="gap_32"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             2. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img class="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
           </div>
 
 
         </div>
 
-        <div class="bold_passage text-center">
+        <div className="bold_passage text-center">
           <p>
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Curabitur ac ultrices odio.”
           </p>
         </div>
 
-        <div class="pessage">
-          <div class="gap_48"></div>
+        <div className="pessage">
+          <div className="gap_48"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             3. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes   . Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
 
 
@@ -444,21 +444,21 @@ const blogs =[
         post:``,
         date:'12 November 2021',
         author:'Annonymus',
-        post:` <div class="pessage">
-        <div class="gap_48"></div>
+        post:` <div className="pessage">
+        <div className="gap_48"></div>
 
-        <div class="pessage_heading">
+        <div className="pessage_heading">
           1. Lorem ipsum dolor sit amet
         </div>
 
-        <div class="pessage_details_wrapper">
-          <div class="pessage_details">
+        <div className="pessage_details_wrapper">
+          <div className="pessage_details">
             <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
               oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
               cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
               Drain, and cool.</p>
 
-            <div class="gap_48"></div>
+            <div className="gap_48"></div>
           </div>
 
 
@@ -468,50 +468,50 @@ const blogs =[
 
       </div>
 
-      <div class="pessage">
-          <div class="gap_32"></div>
+      <div className="pessage">
+          <div className="gap_32"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             2. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img class="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
           </div>
 
 
         </div>
 
-        <div class="bold_passage text-center">
+        <div className="bold_passage text-center">
           <p>
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Curabitur ac ultrices odio.”
           </p>
         </div>
 
-        <div class="pessage">
-          <div class="gap_48"></div>
+        <div className="pessage">
+          <div className="gap_48"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             3. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes   . Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
 
 
@@ -531,21 +531,21 @@ const blogs =[
         post:``,
         date:'12 November 2021',
         author:'Annonymus',
-        post:` <div class="pessage">
-        <div class="gap_48"></div>
+        post:` <div className="pessage">
+        <div className="gap_48"></div>
 
-        <div class="pessage_heading">
+        <div className="pessage_heading">
           1. Lorem ipsum dolor sit amet
         </div>
 
-        <div class="pessage_details_wrapper">
-          <div class="pessage_details">
+        <div className="pessage_details_wrapper">
+          <div className="pessage_details">
             <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
               oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
               cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
               Drain, and cool.</p>
 
-            <div class="gap_48"></div>
+            <div className="gap_48"></div>
           </div>
 
 
@@ -555,50 +555,50 @@ const blogs =[
 
       </div>
 
-      <div class="pessage">
-          <div class="gap_32"></div>
+      <div className="pessage">
+          <div className="gap_32"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             2. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img class="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
           </div>
 
 
         </div>
 
-        <div class="bold_passage text-center">
+        <div className="bold_passage text-center">
           <p>
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Curabitur ac ultrices odio.”
           </p>
         </div>
 
-        <div class="pessage">
-          <div class="gap_48"></div>
+        <div className="pessage">
+          <div className="gap_48"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             3. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes   . Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
 
 
@@ -618,21 +618,21 @@ const blogs =[
         post:``,
         date:'12 November 2021',
         author:'Annonymus',
-        post:` <div class="pessage">
-        <div class="gap_48"></div>
+        post:` <div className="pessage">
+        <div className="gap_48"></div>
 
-        <div class="pessage_heading">
+        <div className="pessage_heading">
           1. Lorem ipsum dolor sit amet
         </div>
 
-        <div class="pessage_details_wrapper">
-          <div class="pessage_details">
+        <div className="pessage_details_wrapper">
+          <div className="pessage_details">
             <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
               oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
               cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
               Drain, and cool.</p>
 
-            <div class="gap_48"></div>
+            <div className="gap_48"></div>
           </div>
 
 
@@ -642,50 +642,50 @@ const blogs =[
 
       </div>
 
-      <div class="pessage">
-          <div class="gap_32"></div>
+      <div className="pessage">
+          <div className="gap_32"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             2. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img class="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
           </div>
 
 
         </div>
 
-        <div class="bold_passage text-center">
+        <div className="bold_passage text-center">
           <p>
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Curabitur ac ultrices odio.”
           </p>
         </div>
 
-        <div class="pessage">
-          <div class="gap_48"></div>
+        <div className="pessage">
+          <div className="gap_48"></div>
 
-          <div class="pessage_heading">
+          <div className="pessage_heading">
             3. Lorem ipsum dolor sit amet
           </div>
 
-          <div class="pessage_details_wrapper">
-            <div class="pessage_details">
+          <div className="pessage_details_wrapper">
+            <div className="pessage_details">
               <p>Bake in preheated oven for 30 to 35 minutes, until golden.In a small bowl, mix mayonnaise, garlic,
                 oregano, salt , and pepper. Set aside.Bring a large pot of salted water to a boil. Add potatoes, and
                 cook until almost done, about 10 minutes   . Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-              <div class="gap_32"></div>
+              <div className="gap_32"></div>
             </div>
 
 
@@ -701,4 +701,4 @@ const blogs =[
     },
 ]
 
-export {blogHero, blogs }
+export { blogHero, blogs }

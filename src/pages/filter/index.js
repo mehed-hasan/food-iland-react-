@@ -4,18 +4,17 @@ import FilterSection from "../../components/FIlterPage/FilterSection";
 import { title } from "../../js/title";
 
 function FilterPage() {
-    const {cat} = useParams();
+  const { cat } = useParams();
 
-    title(`${cat} recipie`)
-    return ( 
+  title(`${cat} recipie`);
 
-        <>
-
-        <FilterHero cat={cat} />
-        <FilterSection cat={cat}/>
-
+  
+  return (
+    <>
+      <FilterHero cat={cat} />
+      <FilterSection cat={cat} />
     </>
-     );
+  );
 }
 
 export default FilterPage;

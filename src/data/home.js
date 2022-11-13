@@ -52,7 +52,7 @@ const ads = {
 }
 
 const newsLetter = {
-    heading:`<span class='dis_rate'>25%</span> Off for all burger`,
+    heading:`<span className='dis_rate'>25%</span> Off for all burger`,
     desc:'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim',
     image:'newsletter_bg.png'
 }
@@ -170,4 +170,4 @@ const menus = {
 const socialPost = ['Post.png','Post.png','Post.png','Post.png','Post.png','Post.png','Post.png'];
 
 
-export {heroSection, cat, ads, newsLetter, menus, socialPost}
+export { heroSection, cat, ads, newsLetter, menus, socialPost }
