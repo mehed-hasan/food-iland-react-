@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 
-import reportWebVitals from './reportWebVitals';
-import "slick-carousel/slick/slick.css"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.js'
+import 'bootstrap/dist/js/bootstrap.bundle.js';
+import "slick-carousel/slick/slick.css";
 import './css/style.min.css';
+import reportWebVitals from './reportWebVitals';
+import "./sass/style.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -44,7 +44,7 @@ const recipes = {
             cat:'Sweets',
             price:'$10',
             layer:1,
-            image:'food1.png',
+            image:'food1.webp',
             type:'',
             author:'Andreas Paula'
         },
@@ -54,7 +54,7 @@ const recipes = {
             cat:'Pizza',
             price:'$5',
             layer:1,
-            image:'food2.png',
+            image:'food2.webp',
             type:'',
             author:'Andreas Paula'
 
@@ -66,7 +66,7 @@ const recipes = {
             cat:'Pizza',
             price:'$10',
             layer:2,
-            image:'food2.png',
+            image:'food2.webp',
             type:'',
             author:'Andreas Paula'
 
@@ -78,7 +78,7 @@ const recipes = {
             cat:'Drinks',
             price:'$10',
             layer:1,
-            image:'food3.png',
+            image:'food3.webp',
             type:'',
             author:'Andreas Paula'
 
@@ -90,7 +90,7 @@ const recipes = {
             cat:'Sweets',
             price:'$10',
             layer:3,
-            image:'food4.png',
+            image:'food4.webp',
             type:'popular',
             author:'Andreas Paula'
 
@@ -102,7 +102,7 @@ const recipes = {
             cat:'Pizza',
             price:'$10',
             layer:1,
-            image:'food5.png',
+            image:'food5.webp',
             type:'popular',
             author:'Andreas Paula'
 
@@ -114,7 +114,7 @@ const recipes = {
             cat:'Sweets',
             layer:5,
             price:'$10',
-            image:'food1.png',
+            image:'food1.webp',
             type:'popular',
             author:'Andreas Paula'
 
@@ -125,7 +125,7 @@ const recipes = {
             cat:'Pizza',
             price:'$10',
             layer:1,
-            image:'food2.png',
+            image:'food2.webp',
             type:'',
             author:'Andreas Paula'
 
@@ -137,7 +137,7 @@ const recipes = {
             cat:'Snack',
             price:'$10',
             layer:1,
-            image:'food3.png',
+            image:'food3.webp',
             type:'',
             author:'Andreas Paula'
 
@@ -149,7 +149,7 @@ const recipes = {
             cat:'Snack',
             price:'$10',
             layer:1,
-            image:'food4.png',
+            image:'food4.webp',
             type:'',
             author:'Andreas Paula'
 
@@ -161,7 +161,7 @@ const recipes = {
             cat:'Snack',
             layer:2,
             price:'$10',
-            image:'food5.png',
+            image:'food5.webp',
             type:'',
             author:'Andreas Paula'
 
@@ -173,3 +173,4 @@ const recipes = {
 
 
 export { recipes }
+

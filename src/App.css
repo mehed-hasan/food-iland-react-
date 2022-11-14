@@ -8,7 +8,7 @@
 .category input[type="radio"] {
   display: none;
 }
-label {
+.categories label {
   padding: 5px 8px;
   border: 1px solid rgba(21, 21, 21, 0.3);
   border-radius: 32px;
@@ -26,4 +26,24 @@ label {
   background: #ff7426;
   color: #fff;
   border: 1px solid #ff762600;
+}
+
+.social_posts .slick-track .slick-slide {
+  padding: 0 10px;
+}
+.social_posts .slick-track .slick-slide > div:focus-within {
+  outline: none;
+}
+
+#newsletter_2 {
+  background-image: url("./images/backgrounds/newsletter.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#details_page {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

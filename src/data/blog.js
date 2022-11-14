@@ -46,7 +46,7 @@ const blogs =[
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg.webp')}" alt=""/>
 
               <div className="gap_32"></div>
             </div>
@@ -134,7 +134,7 @@ const blogs =[
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg.webp')}" alt=""/>
 
               <div className="gap_32"></div>
             </div>
@@ -221,7 +221,7 @@ const blogs =[
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg.webp')}" alt=""/>
 
               <div className="gap_32"></div>
             </div>
@@ -308,7 +308,7 @@ const blogs =[
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg.webp')}" alt=""/>
 
               <div className="gap_32"></div>
             </div>
@@ -395,7 +395,7 @@ const blogs =[
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg.webp')}" alt=""/>
 
               <div className="gap_32"></div>
             </div>
@@ -482,7 +482,7 @@ const blogs =[
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg.webp')}" alt=""/>
 
               <div className="gap_32"></div>
             </div>
@@ -569,7 +569,7 @@ const blogs =[
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg.webp')}" alt=""/>
 
               <div className="gap_32"></div>
             </div>
@@ -656,7 +656,7 @@ const blogs =[
                 cook until almost done, about 10 minutes. Don't overcook otherwise the potatoes will break apart.
                 Drain, and cool.</p>
 
-                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg_.png')}" alt=""/>
+                <img className="img-fluid w-100" src="${require('../images/backgrounds/bg.webp')}" alt=""/>
 
               <div className="gap_32"></div>
             </div>
@@ -702,3 +702,4 @@ const blogs =[
 ]
 
 export { blogHero, blogs }
+

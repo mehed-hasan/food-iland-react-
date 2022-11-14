@@ -5,7 +5,7 @@ function BlogCard({data,pattern}) {
       
        <div >
          <div className={pattern === "col" ? 'item flex-column' : 'item d-flex flex-column flex-sm-row ' }>
-          <img src={require("../../images/foods/recipie.png")} alt=""/>
+          <img src={require("../../images/foods/recipie.webp")} alt=""/>
           <div className="about_item">
             <h3>{data.title}</h3>
             <div className="user_info">
